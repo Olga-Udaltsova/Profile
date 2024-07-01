@@ -1,0 +1,260 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 64px auto;
+}
+
+h2 {
+  text-transform: lowercase;
+  margin-bottom: 32px;
+  color:#FFFFFF;
+}
+
+.profile {
+  width: 1000px;
+  box-sizing: border-box;
+  color:#FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.text {
+  margin: 61px 0px 61px 24px;
+}
+
+.text h1 {
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 74.8px;
+  margin-bottom: 22px;
+}
+
+.text > p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 64px;
+}
+
+.text button {
+  width: 232px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 18px;
+  background-color: #D4D3FB;
+  display: flex;
+  align-items: center;
+}
+
+.text button p {
+  width: 172px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.59px;
+  margin: 18px 0 18px 14px;
+}
+
+.text button img {
+  width: 16px;
+  height: 14px;
+  margin: 18.5px 14px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.web-sites {
+  width: 1000px;
+}
+
+.web-sites h2 {
+  margin-left: 24px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.link {
+  width: 232px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 18px;
+  padding: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link p {
+  width: 164px;
+  color:#FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 21.86px;
+}
+
+.link p > a {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 21.86px;
+  text-decoration: none;
+  color:#FFFFFF;
+  padding-left: 4px;
+}
+
+.link img {
+  width: 32px;
+  height: 32px;
+}
+
+.biography {
+  width: 1000px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 32px;
+  padding: 24px;
+}
+
+.biography p {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.company-list {
+  width: 1000px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 32px;
+  padding: 24px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.company-list p {
+  color:#FFFFFF;
+}
+
+.company {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+span, .company-list a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #76757B;
+}
+
+.company-list p:last-child {
+  margin-top: 8px;
+}
+
+.portfolio {
+  width: 1000px;
+  box-sizing: border-box;
+}
+
+.portfolio h2 {
+  margin-left: 24px;
+}
+
+.job {
+  box-sizing: border-box;
+  width: 1000px;
+  border: none;
+  border-radius: 32px;
+  background-color: #D4D3FB;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 32px;
+}
+
+.job img:first-child {
+  width: 25%;
+  height: 25%;
+}
+
+.work {
+  width: 628px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 18px;
+} 
+
+.work h3 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.work p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.work button {
+  width: 30%;
+  border: 1px solid #333333;
+  border-radius: 18px;
+  background-color: #D4D3FB;
+  display: flex;
+  justify-content: space-between; 
+  align-self: flex-end;
+  padding: 18px;
+}
+
+.work button p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.work button img {
+  width: 15%;
+  height: 10%; 
+}
